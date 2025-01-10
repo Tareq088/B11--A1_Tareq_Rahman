@@ -143,6 +143,7 @@ vision section */
 .digit{
     display: flex;
     gap:21px;
+    margin-bottom: 27px;
 }
 .digit .pillar-1{
     padding: 21px;
@@ -168,8 +169,34 @@ vision section */
 .digit .pill-3{
     background-color: #F7EBCF;
 }
-
 .digit .pill-3 .btn{
     background-color: #FFC239;   
+}
+.quot{
+    background: url("../assets/quote-bg.png");
+    background-repeat: no-repeat;
+    background-position: 2% 7%;
+    background-color: white;
+    border-radius: 14px;
+    padding: 41px 21px 21px 21px;
+}
+.quot .descri{
+    font-weight: 400;
+    font-size: 14px;
+    color:rgba(14, 14, 14,0.8);
+    margin-bottom: 10px;
+    line-height: 21px;
+}
+.quot h5{
+    font-weight: 600;
+    font-size: 17px;
+    color:rgba(14, 14, 14,0.8);
+    line-height: 21px;
+}
+.quot .chief{
+    font-weight: 400;
+    font-size: 14px;
+    color:rgba(14, 14, 14,0.6);
+    line-height: 21px;
 }
 
