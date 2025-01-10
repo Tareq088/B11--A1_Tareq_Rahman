@@ -37,7 +37,7 @@ nav button{
     cursor: pointer;
 }
 /* ------------------ */
-/*banner section */
+/*start banner section */
 .banner{
     margin-top:12px;
     display: flex;
@@ -81,8 +81,10 @@ nav button{
     height:340px;
     margin-top: 68px;
 }
+
 /* ------------------ */
 /* pillar section */
+/* ------------------ */
 .pillar{
     width:1088px;
     margin: auto; 
@@ -123,6 +125,7 @@ nav button{
 }
 /* -------------
 vision section */
+/* ------------------ */
 .vision{
     width:1088px;
     margin: auto; 
@@ -199,4 +202,63 @@ vision section */
     color:rgba(14, 14, 14,0.6);
     line-height: 21px;
 }
+/* -------------
+opinion section */
+/* ------------------ */
+.opinion{
+    width:1088px;
+    margin: auto; 
+}
+.opinion h2{
+    font-weight: 800;
+    font-size: 34px;
+    color:#0E0E0E;
+    margin-top:68px;
+    margin-bottom: 21px;
+}
+.table-area{
+    padding: 27px;
 
+    background-color: white;
+    border-radius: 14px;
+}
+table{
+    width:1030px;
+    border:1px  solid #F5F5F5;
+    border-collapse: collapse;
+    text-align: left;
+}
+table th,tr,td{
+    border:1px solid rgba(0, 0, 0,0.1);
+    padding:10px;
+}
+table th .ques{
+    margin-right:640px;
+    text-align: left;
+   
+}
+table th .selec{
+    margin-left:130px;
+}
+table th, table tr td form select{
+    background-color: #C6E4D6;
+    
+}
+table tr td{
+    font-weight: 600;
+    font-size: 14px;
+
+}
+table tr td form sleect option{
+    font-weight: 800;
+    font-size: 14px;
+
+}
+table tr td form select{
+    border-radius: 5px;
+    padding:5px;
+}
+table tr td form{
+    text-align: center;
+    
+}
