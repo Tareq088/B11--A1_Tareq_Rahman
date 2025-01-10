@@ -1,0 +1,175 @@
+/* get google font style */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* universal design */
+*{
+    padding:0px;
+    margin:0px;
+    font-family: "Fira Sans", serif;
+
+}
+body{
+    background-color: #F5F5F5;
+}
+
+/* My display is 1366 px. so, the factor is 0.85 */
+header{
+    width:1088px;
+    margin: auto;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    padding:20px 0; 
+}
+nav h2{
+    font-weight: 800;
+    font-size: 28px;
+    color:#0E0E0E;
+}
+nav button{
+    font-weight:600;
+    font-size: 16px;
+    color:#006A50; 
+    border:1px solid #006A50;
+    padding:13px 26px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+/* ------------------ */
+/*banner section */
+.banner{
+    margin-top:12px;
+    display: flex;
+    width:1088px;
+    margin: auto;
+    background-color: #C6E4D6;
+    border-radius: 20px;
+    margin-bottom: 68px;
+}
+.banner .bann-left{
+    width:550px;
+    padding: 99px 51px ;
+}
+.bann-left p{
+    font-weight: 500;
+    font-size: 21px;
+    color:rgba(14, 14, 14,50%);
+    margin-bottom: 14px;
+}
+.bann-left h3{
+    font-weight: 800;
+    font-size: 48px;
+    color:#0E0E0E;
+    margin-bottom: 21px;
+    line-height: auto;
+}
+.btn{
+    font-weight: 600;
+    font-size: 15px;
+    color:#FFFFFF;
+    padding:15px 29px;
+    border:none;
+    border-radius: 7px;
+    background-color: #006A50;
+}
+.bann-right{
+    width:600px;
+}
+.bann-right img{
+    max-width:403px;
+    height:340px;
+    margin-top: 68px;
+}
+/* ------------------ */
+/* pillar section */
+.pillar{
+    width:1088px;
+    margin: auto; 
+    margin-bottom: 68px;
+}
+.pillar h3{
+    font-weight: 800;
+    font-size: 34px;
+    color:#0E0E0E;
+    margin-bottom: 27px;
+}
+.pillar-group{
+    display: flex;
+    gap: 21px;
+}
+
+.pillar-1{
+    padding: 21px;
+    background-color: white;
+    border-radius: 14px;
+    border: 1px solid rgba(14, 14, 14,0.15);
+}
+.pillar-1 img{
+    margin-bottom: 21px;
+}
+.pillar-1 h4{
+    font-weight: 800;
+    font-size: 17px;
+    color:#0E0E0E;
+    margin-bottom: 10px;
+}
+.pillar-1 p{
+    font-weight: 400;
+    max-width:216px;
+    font-size: 14px;
+    color:#0E0E0E;
+    line-height: 21px;
+}
+/* -------------
+vision section */
+.vision{
+    width:1088px;
+    margin: auto; 
+}
+.vision h3{
+    font-weight: 800;
+    font-size: 34px;
+    color:#0E0E0E;
+    margin-bottom: 21px;
+}
+.vision p{
+    font-weight: 400;
+    font-size: 14px;
+    color:#0E0E0E;
+    margin-bottom: 27px;
+    line-height: 21px;
+}
+.digit{
+    display: flex;
+    gap:21px;
+}
+.digit .pillar-1{
+    padding: 21px;
+    background-color: white;
+    border-radius: 14px;
+    border: 1px solid rgba(14, 14, 14,0.15);
+}
+.digit .pillar-1 p{
+    max-width: 305px;
+}
+.digit .pill-1{
+    background-color: rgba(84, 144, 245,0.2);
+}
+.digit .pill-1 .btn{
+    background-color: #5490F5;   
+}
+.digit .pill-2{
+    background-color:#C6E4D6 ;
+}
+.digit .pill-2 .btn{
+    background-color: #09A15C;   
+}
+.digit .pill-3{
+    background-color: #F7EBCF;
+}
+
+.digit .pill-3 .btn{
+    background-color: #FFC239;   
+}
+
