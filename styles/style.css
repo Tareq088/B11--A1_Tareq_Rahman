@@ -347,6 +347,7 @@ Donate section */
     width:1088px;
     margin: auto; 
     margin-top: 68px;
+    margin-bottom: 68px;
     text-align: center;
 }
 .donate h3{
@@ -360,16 +361,17 @@ Donate section */
     font-size: 14px;
     color:rgba(14, 14, 14, 0.7);
     line-height: 21px;
-    margin: 0 75px 27px;
+    margin: 0 60px 27px;
 }
 .card-group{
-
+    display: flex;
+    gap: 21px;
+    margin: 0 0px 27px 95px ;
 }
 .card-group .card-1{
     background-color: white;
     height:110px;
     width:205px;
-
     border-radius: 14px;
     border:1px solid rgba(14, 14, 14, 0.15);
 }
@@ -380,3 +382,50 @@ Donate section */
     margin: auto;
     margin-top: 45px;
 }
+.card-group .card-1:hover{
+    background-color: #C6E4D6;
+}
+.donate form input{
+    font-weight: 400;
+    font-size: 17px;
+    color:rgba(14, 14, 14, 0.3);
+    text-align: center;
+    display: block;
+    width: 870px;
+    height:55px;
+    margin: auto;
+    border: none;
+    border-bottom:2px solid rgba(14, 14, 14, 0.15) ;
+    outline: none;
+    margin-bottom: 27px;
+}
+/* -------------
+Donate section */
+/* ------------------ */
+.subscribe{
+    width:1088px;
+    margin: auto; 
+    margin-bottom: 68px;
+    text-align: center;
+    background-color: #C6E4D6;
+    border-radius: 21px;
+    padding:68px 0;
+}
+.subscribe h3{
+    font-weight: 800;
+    font-size: 34px;
+    color:#0E0E0E;
+    margin-bottom: 21px;
+}
+.subscribe p{
+    font-weight: 400;
+    font-size: 14px;
+    width:530px;
+    color:rgba(14, 14, 14, 0.7);
+    line-height: 21px;
+    margin: auto;
+}
+.subscribe .btn-group{
+    margin:21px 0;
+}
+
