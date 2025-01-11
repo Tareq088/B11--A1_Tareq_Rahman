@@ -448,4 +448,34 @@ Donate section */
     cursor: pointer;
     outline: none;
 }
+/* ------------
+Footer section */
+/* ------------------ */
+footer{
+    /* width:1088px; */
+    /* margin: auto; */
+    text-align: center; 
+    background-color: white;
+}
+footer h3{
+    font-weight: 800;
+    font-size: 27px;
+    color:rgb(14, 14, 14);
+    padding-top:43px;
+    margin-bottom: 26px;
+}
 
+footer hr{
+    margin: auto;
+    width:955px;
+    margin-bottom: 26px;
+    color:rgba(14, 14, 14,0.1); 
+    border-color: rgba(14, 14, 14,0.1);
+    margin-bottom: 26px;
+}
+footer .logo-group img{
+    margin-right: 20px;
+    height:21px;
+    width:21px;
+    margin-bottom: 43px;
+}
