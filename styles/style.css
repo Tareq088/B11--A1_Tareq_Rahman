@@ -71,8 +71,12 @@ nav button{
     padding:15px 29px;
     border:none;
     border-radius: 7px;
-    background-color: #006A50;
+    background-color: rgba(0, 106, 80,0.6);
     cursor: pointer;
+    transition: 0.5s;
+}
+.btn:hover{
+    background-color: rgba(0, 106, 80,1);
 }
 .bann-right{
     width:600px;
@@ -162,19 +166,32 @@ vision section */
     background-color: rgba(84, 144, 245,0.2);
 }
 .digit .pill-1 .btn{
-    background-color: #5490F5;   
+    background-color: rgba(84, 144, 245,0.5); 
+    transition: 0.5s;  
+}
+.digit .pill-1 .btn:hover{
+    background-color: rgba(84, 144, 245,1);   
 }
 .digit .pill-2{
     background-color:#C6E4D6 ;
 }
 .digit .pill-2 .btn{
-    background-color: #09A15C;   
+    background-color: rgba(9, 161, 92,0.5);
+    transition: 0.5s;   
+}
+.digit .pill-2 .btn:hover{
+    background-color: rgba(9, 161, 92,1);   
 }
 .digit .pill-3{
     background-color: #F7EBCF;
 }
 .digit .pill-3 .btn{
-    background-color: #FFC239;   
+    background-color: rgba(255, 194, 57,0.
+    5); 
+    transition: 0.5s;  
+}
+.digit .pill-3 .btn:hover{
+    background-color: rgba(255, 194, 57,1);   
 }
 .quot{
     background: url("../assets/quote-bg.png");
@@ -242,18 +259,16 @@ table th .selec{
     margin-left:130px;
 }
 table th, table tr td form select{
-    background-color: #C6E4D6;
-    
+    background-color: #C6E4D6; 
 }
 table tr td{
     font-weight: 600;
     font-size: 14px;
 
 }
-table tr td form sleect option{
+table tr td form select option{
     font-weight: 800;
     font-size: 14px;
-
 }
 table tr td form select{
     border-radius: 5px;
@@ -444,9 +459,13 @@ Donate section */
     padding:15px 29px;
     border:none;
     border-radius:0 7px 7px 0;
-    background-color: #006A50;
+    background-color: rgba(0, 106, 80,0.5);
     cursor: pointer;
     outline: none;
+    transition: 0.5s;
+}
+.btn-group .btn:hover{
+    background-color: rgba(0, 106, 80,1);
 }
 /* ------------
 Footer section */
