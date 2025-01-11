@@ -72,6 +72,7 @@ nav button{
     border:none;
     border-radius: 7px;
     background-color: #006A50;
+    cursor: pointer;
 }
 .bann-right{
     width:600px;
@@ -283,10 +284,13 @@ recent section */
     line-height: 21px;
 }
 .satt-group{
-    background-color: white;
+    /* background-color: white; */
 }
 .satt-1{
+    background-color: white;
     display: flex;
+    border-radius: 21px;
+    margin-bottom: 21px;
 }
 .satt-1 .image{
     width:40%;
@@ -308,17 +312,17 @@ recent section */
     font-weight: 800;
     font-size: 27px;
     color:#0E0E0E;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 .info .image-smal img{
     max-width: 114px;
-    margin-bottom: 12px;
+    margin-bottom: 15px;
 }
 .info .smal{
     font-weight: 400;
     font-size: 14px;
     color:#0E0E0E;
-    margin-bottom: 10px;
+    margin-bottom: 12px;
 }
 .info .smal span{
     margin-right:10px;
@@ -327,6 +331,52 @@ recent section */
     font-weight: 400;
     font-size: 14px;
     color:#0E0E0E;
+    line-height: 22px;
+    margin-bottom: 40px;
+}
+.gr-2{
+    flex-direction: row-reverse;
+}
+.gr-2 .info{
+    padding-left: 27px;
+}
+/* -------------
+Donate section */
+/* ------------------ */
+.donate{
+    width:1088px;
+    margin: auto; 
+    margin-top: 68px;
+    text-align: center;
+}
+.donate h3{
+    font-weight: 800;
+    font-size: 34px;
+    color:#0E0E0E;
+    margin-bottom: 21px;
+}
+.donate p{
+    font-weight: 400;
+    font-size: 14px;
+    color:rgba(14, 14, 14, 0.7);
     line-height: 21px;
-    margin-bottom: 27px;
+    margin: 0 75px 27px;
+}
+.card-group{
+
+}
+.card-group .card-1{
+    background-color: white;
+    height:110px;
+    width:205px;
+
+    border-radius: 14px;
+    border:1px solid rgba(14, 14, 14, 0.15);
+}
+.card-1 p{
+    font-weight: 800;
+    font-size: 34px;
+    color:rgba(14, 14, 14, 0.8);
+    margin: auto;
+    margin-top: 45px;
 }
