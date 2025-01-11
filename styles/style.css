@@ -427,5 +427,25 @@ Donate section */
 }
 .subscribe .btn-group{
     margin:21px 0;
+    display: inline-flex;
+}
+.btn-group form input{
+    height:20px;
+    width: 420px;
+    padding:15px 34px;
+    font-size: 14px;
+    color:rgba(14, 14, 14,0.3);
+    border-radius:7px 0px 0px 7px;
+}
+.btn-group .btn{
+    font-weight: 600;
+    font-size: 15px;
+    color:#FFFFFF;
+    padding:15px 29px;
+    border:none;
+    border-radius:0 7px 7px 0;
+    background-color: #006A50;
+    cursor: pointer;
+    outline: none;
 }
 
